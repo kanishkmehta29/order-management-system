@@ -1,0 +1,33 @@
+# Compiled Go binaries
+**/bin/
+order-service/order-service
+inventory-service/inventory-service
+payment-service/payment-service
+notification-service/notification-service
+seed/seed
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test files
+*.test
+*.out
+
+# macOS specific files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Docker volumes
+mongodb-data/
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
