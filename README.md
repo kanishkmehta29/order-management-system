@@ -23,7 +23,7 @@ Event-driven microservices application for processing orders with the following 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/order-management-system.git
+git clone https://github.com/kanishkmehta29/order-management-system.git
 
 # Start all services
 docker-compose up -d
